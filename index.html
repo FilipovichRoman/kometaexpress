@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Скоростные пассажирские суда на Черном море</title>
+	<link rel="preload" href="css/style.css" as="style" />
+	<meta name="description" content="Отправьтесь в незабываемое приключение на круизном лайнере по Черному морю! Насладитесь красотами Черноморского побережья, посетите уютные городки и пляжи, попробуйте местную кухню и насладитесь комфортом на борту. У нас вы найдете морские круизы по Черному морю разных ценовых категорий. Забронируйте свой морской тур из Сочи и отправляйтесь в путешествие вашей мечты!">
+	<meta name="keywords" content="круиз сочи, круиз яхта сочи, круиз адлер, прогулка яхта сочи, яхта имеретинский, круиз черное море, аренда катера сочи, аренда яхты имеретинский, прокат яхт сочи, прогулка яхта имеретинский, круиз яхта сочи, аренда катера имеретинский"/>
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__top container">
+			<div class="header__item header__item-small">
+				<a href="#" class="logo">
+					<img src="images/Комета-Экспресс.svg" alt="Комета Экспресс">
+				</a>
+			</div>
+			<div class="header__item">
+				<div class="header__contact">
+					<ul class="social">
+						<li class="social__item">
+							<a class="social__item-link" href="#">
+								<img src="images/telegram.svg" width="32" height="32" alt="telegram">
+							</a>
+						</li>
+						<li class="social__item">
+							<a class="social__item-link" href="#">
+								<img src="images/vk.svg" width="32" height="32" alt="vk">
+							</a>
+						</li>
+						<li class="social__item">
+							<a class="social__item-link" href="#">
+								<img src="images/whatsapp.svg" width="32" height="32" alt="whatsapp">
+							</a>
+						</li>
+					</ul>
+					<a class="header__tel" href="tel:+78009999999">+7 (800) 999-99-99</a>
+					<button class="btn btn-modal" type="button">Обратный звонок</button>
+				</div>
+			</div>
+			<div class="header__item header__item-big">
+				<nav class="navbar">
+		            <ul class="nav-menu">
+		            	<li class="nav-item nav-item-mob">
+							<ul class="social">
+								<li class="social__item">
+									<a class="social__item-link" href="#">
+										<img src="images/telegram.svg" width="32" height="32" alt="telegram">
+									</a>
+								</li>
+								<li class="social__item">
+									<a class="social__item-link" href="#">
+										<img src="images/vk.svg" width="32" height="32" alt="vk">
+									</a>
+								</li>
+								<li class="social__item">
+									<a class="social__item-link" href="#">
+										<img src="images/whatsapp.svg" width="32" height="32" alt="whatsapp">
+									</a>
+								</li>
+							</ul>
+							<a class="header__tel" href="tel:+78009999999">+7 (800) 999-99-99</a>
+						</li>
+		                <li class="nav-item">
+		                  <a href="#schedule" class="nav-link">Рейсы</a>
+		                </li>
+		                <li class="nav-item">
+		                  <a href="#ticket" class="nav-link">Стоимость</a>
+		                </li>
+		                <li class="nav-item">
+		                  <a href="#about" class="nav-link">О нас</a>
+		                </li>
+		                <li class="nav-item">
+		                  <a href="#advantages" class="nav-link">Преимущества</a>
+		                </li>
+		                <li class="nav-item">
+		                  <a href="#questions" class="nav-link">Частые вопросы</a>
+		                </li>
+		                <li class="nav-item">
+		                  <a href="#gallery" class="nav-link">Галерея</a>
+		                </li>
+		                <li class="nav-item">
+		                  <a href="#reviews" class="nav-link">Отзывы</a>
+		                </li>
+		                <li class="nav-item">
+		                  <a href="#contact" class="nav-link">Контакты</a>
+		                </li>
+		            </ul>
+		            <div class="hamburger">
+		                <span class="bar"></span>
+		                <span class="bar"></span>
+		                <span class="bar"></span>
+		            </div>
+	          </nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		
+		<section class="intro">
+			<div class="container">
+				<h1 class="intro__title">ПОЕЗДКА НА СКОРОСТНОМ СУДНЕ ПО ЧЕРНОМУ МОРЮ</h1>
+				<p class="intro__text">Насладитесь романтикой Черноморского побережья Краснодарского края с помощью наших услуг</p>
+				<div class="btns">
+					<button class="btn btn-order js-open-modal" data-modal="1" type="button">Заказать билет</button>
+					<button class="btn btn-details">Подробнее</button>
+					<div class="modal" data-modal="1">
+						<h2 class="modal__title">Оставьте свои данные</h2>
+						<p class="modal__text">Свяжемся и договоримся</p>
+						<form action="/" method="POST" class="modal__form">
+							<label class="form__label">
+								<input type="text" name="name" placeholder="Имя" class="form__input form__input-modal">
+							</label>
+							<label class="form__label">
+								<input type="tel" name="tel" placeholder="Телефон" class="form__input form__input-modal">
+							</label>
+							<label class="form__label">
+								<input type="email" name="email" placeholder="E-mail" class="form__input form__input-modal">
+							</label>
+							<button class="btn form__btn" type="submit">Отправить</button>
+						</form>
+						<div class="checkbox">
+							<input type="checkbox" class="checkbox__input" id="checkbox_1">
+							<label class="checkbox__label checkbox__label-modal" for="checkbox_1">Я ознакомлен и согласен с политикой <a class="checkbox__link" href="#" target="_blank">обработки персональных данных</a></label>
+						</div>
+					</div>
+					<div class="overlay js-overlay-modal"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="schedule" id="schedule">
+			<div class="container">
+				<div class="section__header">
+					<h2 class="section__title">Расписание рейсов</h2>
+					<p class="section__text">Маршрут осуществляется на скоростных теплоходах на подводных крыльях проекта «Комета»</p>
+				</div>
+				<div class="schedule__list">
+					<div class="schedule__item">
+						<article class="schedule__wrapper">
+							<picture>
+								<source srcset="images/Сочи-min.png" media="(max-width: 992px)">
+								<img class="schedule__img" src="images/Сочи.png" loading="lazy" alt="Сочи">
+							</picture>
+							<div class="schedule__box">
+								<div class="schedule__content">
+									<div class="schedule__time">07:30 - 11:00</div>
+									<h3 class="schedule__title">Сочи - Геленджик</h3>
+									<button class="btn btn-ticket" type="button">Купить билет</button>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="schedule__item">
+						<article class="schedule__wrapper">
+							<picture>
+								<source srcset="images/Геленджик-Сочи-min.png" media="(max-width: 992px)">
+								<img class="schedule__img" src="images/Геленджик-Сочи.png" loading="lazy" alt="Геленджик Сочи">
+							</picture>
+							<div class="schedule__box">
+								<div class="schedule__content">
+									<div class="schedule__time">16:05 - 20:45</div>
+									<h3 class="schedule__title">Геленджик</h3>
+									<button class="btn btn-ticket" type="button">Купить билет</button>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="schedule__item">
+						<article class="schedule__wrapper">
+							<picture>
+								<source srcset="images/Анапа-min.png" media="(max-width: 992px)">
+								<img class="schedule__img" src="images/Анапа.png" loading="lazy" alt="Анапа">
+							</picture>
+							<div class="schedule__box">
+								<div class="schedule__content">
+									<div class="schedule__time">11:20 - 13:05</div>
+									<h3 class="schedule__title">Геленджик - Анапа</h3>
+									<button class="btn btn-ticket" type="button">Купить билет</button>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="schedule__item">
+						<article class="schedule__wrapper">
+							<picture>
+								<source srcset="images/Анапа-Геленджик-min.png" media="(max-width: 992px)">
+								<img class="schedule__img" loading="lazy" src="images/Анапа-Геленджик.png" alt="Геленджик">
+							</picture>
+							<div class="schedule__box">
+								<div class="schedule__content">
+									<div class="schedule__time">14:00 - 15:45</div>
+									<h3 class="schedule__title">Анапа - Геленджик</h3>
+									<button class="btn btn-ticket" type="button">Купить билет</button>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="schedule__item schedule__item-big">
+						<article class="schedule__wrapper">
+							<img class="schedule__img" src="images/Анапа-Сочи.png" loading="lazy" alt="Анапа">
+							<div class="schedule__box">
+								<div class="schedule__content">
+									<div class="schedule__time">07:30 - 13:05</div>
+									<h3 class="schedule__title">Сочи - Геленджик - Анапа</h3>
+									<button class="btn btn-ticket" type="button">Купить билет</button>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="schedule__item schedule__item-big">
+						<article class="schedule__wrapper">
+							<img class="schedule__img" src="images/Геленджик--Сочи.png" loading="lazy" alt="Сочи">
+							<div class="schedule__box">
+								<div class="schedule__content">
+									<div class="schedule__time">14:00 - 20:45</div>
+									<h3 class="schedule__title">Анапа - Геленджик - Сочи</h3>
+									<button class="btn btn-ticket" type="button">Купить билет</button>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ticket" id="ticket">
+			<div class="container">
+				<div class="section__header">
+					<h2 class="section__title">Стоимость билетов</h2>
+				</div>
+				<div class="ticket__top">
+					<div class="ticket__wrapper">
+						<div class="ticket__item ticket__item-direction">
+							<div class="ticket__header">
+								<h3 class="ticket__time">07:30</h3>
+								<div class="ticket__daily ticket-daily__mob">Ежедневно</div>
+							</div>
+							<div class="ticket__direction">
+								<p class="ticket__title">Сочи</p>
+								<p class="ticket__title">Геленджик</p>
+							</div>
+						</div>
+						<div class="ticket__item ticket__item-direction">
+							<div class="ticket__header">
+								<h3 class="ticket__time">16:05</h3>
+								<div class="ticket__daily ticket-daily__mob">Ежедневно</div>
+							</div>
+							<div class="ticket__direction">
+								<p class="ticket__title">Геленджик</p>
+								<p class="ticket__title">Сочи</p>
+							</div>
+						</div>
+						<div class="ticket__item ticket-item__daily">
+							<div class="ticket__daily">Ежедневно</div>
+						</div>
+						<div class="ticket__item ticket__item-big">
+							<div class="ticket__info">
+								<div class="ticket__title">Взрослый</div>
+								<div class="ticket__price">5 000 ₽</div>
+							</div>
+							<div class="ticket__info">
+								<div class="ticket__title">Детский</div>
+								<div class="ticket__price">4 000 ₽</div>
+								<div class="ticket__descr">Дети от 0 до 2 лет включительно бесплатно</div>
+							</div>
+						</div>
+						<div class="ticket__item">
+							<button class="btn btn-payment" type="button">Перейти к оплате</button>
+						</div>
+					</div>
+					<div class="ticket__wrapper">
+						<div class="ticket__item ticket__item-direction">
+							<div class="ticket__header">
+								<h3 class="ticket__time">11:20</h3>
+								<div class="ticket__daily ticket-daily__mob">Ежедневно</div>
+							</div>
+							<div class="ticket__direction">
+								<p class="ticket__title">Геленджик</p>
+								<p class="ticket__title">Анапа</p>
+							</div>
+						</div>
+						<div class="ticket__item ticket__item-direction">
+							<div class="ticket__header">
+								<h3 class="ticket__time">14:00</h3>
+								<div class="ticket__daily ticket-daily__mob">Ежедневно</div>
+							</div>
+							<div class="ticket__direction">
+								<p class="ticket__title">Анапа</p>
+								<p class="ticket__title">Геленджик</p>
+							</div>
+						</div>
+						<div class="ticket__item ticket-item__daily">
+							<div class="ticket__daily">Ежедневно</div>
+						</div>
+						<div class="ticket__item ticket__item-big">
+							<div class="ticket__info">
+								<div class="ticket__title">Взрослый</div>
+								<div class="ticket__price">2 500 ₽</div>
+							</div>
+							<div class="ticket__info">
+								<div class="ticket__title">Детский</div>
+								<div class="ticket__price">1 500 ₽</div>
+								<div class="ticket__descr">Дети от 0 до 2 лет включительно бесплатно</div>
+							</div>
+						</div>
+						<div class="ticket__item">
+							<button class="btn btn-payment" type="button">Перейти к оплате</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about">
+			<div class="container">
+				<div class="about__wrapper">
+					<div class="about__photo">
+						<picture>
+							<source srcset="images/катер-small.png" media="(max-width: 650px)">
+							<source srcset="images/катер-min.png" media="(max-width: 768px)">
+							<img class="about__img" src="images/катер.png" loading="lazy" alt="катер">
+						</picture>
+					</div>
+					<div class="about__content">
+						<h2 class="section__title about__title">О нас</h2>
+						<p class="about__text">Компания “Комета Экспресс” осуществляет первозки пассажиров по Краснодарскому краю. Скоростная комета является единственным транспортом, который соединяет курорты Краснодарского края наиболее коротким маршрутом и за минимум потраченного времени на поездки.</p>
+						<p class="about__text">Поездка на Комете по Черному морю- это прекрасное путешествие, которое поможет сократить время передвижения из Сочи до Геленджика и Анапы и в тоже время подарит минуты радости от простого наблюдения за красотой, которая за бортом теплохода.</p>
+						<button class="btn btn-about" type="button">Заказать билет</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="advantages" id="advantages">
+			<div class="container">
+				<div class="advantages__wrapper">
+					<div class="advantages__item">
+						<img class="advantages__img" src="images/advantages-1.svg" width="80" height="80" loading="lazy" alt="">
+						<h3 class="advantages__title">Экономия времени</h3>
+						<p class="advantages__text">Скоростная комета соединяет курорты Краснодарского края наиболее коротким маршрутом</p>
+					</div>
+					<div class="advantages__item">
+						<img class="advantages__img" src="images/advantages-2.svg" width="80" height="80" loading="lazy" alt="">
+						<h3 class="advantages__title">Комфортные условия</h3>
+						<p class="advantages__text">В программу включены трансфер из центра в центр и бар на скоростном судне</p>
+					</div>
+					<div class="advantages__item">
+						<img class="advantages__img" src="images/advantages-3.svg" width="80" height="80" loading="lazy" alt="">
+						<h3 class="advantages__title">Низкие цены</h3>
+						<p class="advantages__text">Цена на скоростное судно дешевле, чем на  наземный транспорт</p>
+					</div>
+					<div class="advantages__item">
+						<img class="advantages__img" src="images/advantages-4.svg" width="80" height="80" loading="lazy" alt="">
+						<h3 class="advantages__title">Ежедневно</h3>
+						<p class="advantages__text">Рейсы осуществляются на скоростных теплоходах ежедневно</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="questions" id="questions">
+			<div class="container">
+				<div class="section__header">
+					<h2 class="section__title">Частые вопросы</h2>
+					<div class="questions__top">
+						<button class="questions__list">За какое время рекомендуется покупать билеты на Ракету?</button>
+						<div class="questions__panel">
+							<p>Lorem ipsum...</p>
+						</div>
+					</div>
+					<div class="questions__top">
+						<button class="questions__list">За какое время лучше быть на причале до старта Кометы?</button>
+						<div class="questions__panel">
+							<p>Lorem ipsum...</p>
+						</div>
+					</div>
+					<div class="questions__top">
+						<button class="questions__list">Сколько мест на Комете и как происходит рассадка пассажиров?</button>
+						<div class="questions__panel">
+							<p>Lorem ipsum...</p>
+						</div>
+					</div>
+					<div class="questions__top">
+						<button class="questions__list">При отмене рейса возврат денег происходит в полном объеме ?</button>
+						<div class="questions__panel">
+							<p>Lorem ipsum...</p>
+						</div>
+					</div>
+					<div class="questions__top">
+						<button class="questions__list">Можно ли на комету проходить с чемоданами?</button>
+						<div class="questions__panel">
+							<p>Lorem ipsum...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="form">
+			<div class="container form__top">
+				<img class="form__img" src="images/катер-2.png" alt="катер">
+				<div class="form__content">
+					<h2 class="section__title form__title">Остались вопросы?</h2>
+					<p class="form__text">Мы свяжемся с вами и обсудим все детали</p>
+					<form action="/" method="POST" class="form__wrapper">
+						<label class="form__label">
+							<input type="text" name="name" placeholder="Имя" class="form__input">
+						</label>
+						<label class="form__label">
+							<input type="tel" name="tel" placeholder="Телефон" class="form__input">
+						</label>
+						<label class="form__label">
+							<input type="email" name="email" placeholder="E-mail" class="form__input">
+						</label>
+						<button class="btn form__btn" type="submit">Отправить</button>
+					</form>
+					<div class="checkbox">
+						<input type="checkbox" class="checkbox__input" id="checkbox_2">
+						<label class="checkbox__label" for="checkbox_2">Я ознакомлен и согласен с политикой <a class="checkbox__link" href="#" target="_blank">обработки персональных данных</a></label>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="gallery" id="gallery">
+			<div class="container">
+				<div class="slider-box">
+					<div class="swiper-container1">
+						<div class="swiper-top">
+							<h2 class="section__title">Наша фотогалерея</h2>
+							<div class="slider-buttons">
+								<button class="swiper-button-prev">
+									<img src="images/arrow-left.svg" width="108" height="20" alt="arrow-left">
+								</button>
+								<button class="swiper-button-next">
+									<img src="images/arrow-right.svg" width="108" height="20" alt="arrow-right">
+								</button>
+							</div>
+						</div>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<picture>
+									<source srcset="images/landscape-with-boats-marina-bay-min.png" media="(max-width: 768px)">
+									<img class="gallery__img" src="images/landscape-with-boats-marina-bay.png" loading="lazy" alt="пейзаж с лодками пристань для яхт">
+								</picture>
+							</div>
+							<div class="swiper-slide">
+								<picture>
+									<source srcset="images/landscape-with-boats-marina-bay2-min.png" media="(max-width: 768px)">
+									<img class="gallery__img" src="images/landscape-with-boats-marina-bay2.png" loading="lazy" alt="пейзаж с лодками пристань для яхт">
+								</picture>
+							</div>
+							<div class="swiper-slide">
+								<picture>
+									<source srcset="images/landscape-with-boats-marina-bay3-min.png" media="(max-width: 768px)">
+									<img class="gallery__img" src="images/landscape-with-boats-marina-bay3.png" loading="lazy" alt="пейзаж с лодками пристань для яхт">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews" id="reviews">
+			<div class="container">
+				<div class="slider-box">
+					<div class="swiper-container3">
+						<div class="swiper-top">
+							<h2 class="section__title">Отзывы</h2>
+							<div class="slider-buttons">
+								<button class="swiper-button-prev">
+									<img src="images/arrow-left.svg" width="108" height="20" alt="arrow-left">
+								</button>
+								<button class="swiper-button-next">
+									<img src="images/arrow-right.svg" width="108" height="20" alt="arrow-right">
+								</button>
+							</div>
+						</div>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<blockquote class="reviews__wrapper">
+									<div class="reviews__header">
+										<img src="images/Александр.png" loading="lazy" alt="Александр Фролов">
+										<div class="reviews__name">Александр Фролов<span>Отдыхающий</span></div>
+									</div>
+									<p class="reviews__text">Прекрасный опыт путешествия с «Кометой Экспресс». Все прошло гладко, без задержек и проблем. Отличная организация, внимательный персонал. Буду пользоваться их услугами еще не раз!</p>
+								</blockquote>
+							</div>
+							<div class="swiper-slide">
+								<blockquote class="reviews__wrapper">
+									<div class="reviews__header">
+										<img src="images/Евгения.png" loading="lazy" alt="Евгения Попова">
+										<div class="reviews__name">Евгения Попова<span>Отдыхающий</span></div>
+									</div>
+									<p class="reviews__text">Прекрасный опыт путешествия с «Кометой Экспресс». Все прошло гладко, без задержек и проблем. Отличная организация, внимательный персонал. Буду пользоваться их услугами еще не раз!</p>
+								</blockquote>
+							</div>
+							<div class="swiper-slide">
+								<blockquote class="reviews__wrapper">
+									<div class="reviews__header">
+										<img src="images/Александр.png" loading="lazy" alt="Александр Фролов">
+									<div class="reviews__name">Александр Фролов<span>Отдыхающий</span></div>
+									</div>
+									<p class="reviews__text">Прекрасный опыт путешествия с «Кометой Экспресс». Все прошло гладко, без задержек и проблем. Отличная организация, внимательный персонал. Буду пользоваться их услугами еще не раз!</p>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<div class="container">
+				<div class="contact__wrapper">
+					<div class="contact__content">
+						<h2 class="section__title">Контакты</h2>
+						<ul class="contact__list">
+							<li class="contact__item"><span>Номер</span><a href="tel:+78009990000">+7 (800) 999-00-00</a></li>
+							<li class="contact__item"><span>Email</span><a href="mailto:info@.kometaexpss.com">info@.kometaexpss.com</a></li>
+							<li class="contact__item"><span>Адрес</span>Санкт-Петербург, шоссе Московское, д. 256, корп. 3, ст. 1</li>
+						</ul>
+					</div>
+					<div class="contact__photo">
+						<img class="contact__img" src="images/карта.png" loading="lazy" alt="карта">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<a href="#" class="logo">
+						<picture>
+							<source srcset="images/Комета-Экспресс-mob.svg" media="(max-width: 575px)">
+							<img src="images/Комета-Экспресс.svg" loading="lazy" alt="Комета Экспресс">
+						</picture>
+					</a>
+					<ul class="social">
+						<li class="social__item">
+							<a class="social__item-link" href="#">
+								<img src="images/telegram.svg" width="32" height="32" alt="telegram">
+							</a>
+						</li>
+						<li class="social__item">
+							<a class="social__item-link" href="#">
+								<img src="images/vk.svg" width="32" height="32" alt="vk">
+							</a>
+						</li>
+						<li class="social__item">
+							<a class="social__item-link" href="#">
+								<img src="images/whatsapp.svg" width="32" height="32" alt="whatsapp">
+							</a>
+						</li>
+					</ul>
+					<div class="footer__contact">
+						<a class="header__tel footer__tel" href="tel:+78009999999">+7 (800) 999-99-99</a>
+						<button class="btn btn-modal btn-modal__fill" type="button">Обратный звонок</button>
+					</div>
+				</div>
+				<div class="footer__nav">
+					<nav class="footer__navbar">
+						<ul class="footer__nav-menu">
+							<li class="nav-items"><a href="#" class="nav-link nav-link__fill">Рейсы</a></li>
+							<li class="nav-items"><a href="#" class="nav-link nav-link__fill">Стоимость</a></li>
+							<li class="nav-items"><a href="#" class="nav-link nav-link__fill">О нас</a></li>
+							<li class="nav-items"><a href="#" class="nav-link nav-link__fill">Преимущества</a></li>
+							<li class="nav-items"><a href="#" class="nav-link nav-link__fill">Частые вопросы</a></li>
+							<li class="nav-items"><a href="#" class="nav-link nav-link__fill">Галерея</a></li>
+							<li class="nav-items"><a href="#" class="nav-link nav-link__fill">Отзывы</a></li>
+							<li class="nav-items"><a href="#" class="nav-link nav-link__fill">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__date">2025</div>
+					<a class="footer__policy" href="#">Пользовательское соглашение</a>
+				</div>
+			</div>
+		</footer>
+
+	</main>
+	
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script type="text/javascript" defer src="js/app.js"></script>
+
+</body>
+</html>
